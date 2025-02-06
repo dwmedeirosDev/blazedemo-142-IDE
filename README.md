@@ -1,24 +1,28 @@
-# 🚀 Automação de testes - Compra de passagem e validação
+## 🚀 Automação de testes - Compra de passagem e validação
 
-## 🛠️ Tecnologias
+### 🛠️ Tecnologias
 - ☕ **Java**
 - ✅ **JUnit**
 - 🌐 **Selenium IDE**
 - 🚗 **Selenium WebDriver**
 - 🌐 **ChromeDriver**
 
-## 💻 Configuração do Teste
+---
+
+### 💻 Configuração do teste
 - Inicializa o WebDriver (**ChromeDriver**) e configura o navegador.
 - Prepara variáveis e o executor.
 
-## 🛫 Navegação e Seleção de Voos
+---
+
+### 🛫 Navegação e seleção de voos
 - Acessa o site, seleciona a origem (**São Paulo**) e o destino (**Berlim**) e clica no botão para buscar voos.
 
-## ✈️ Escolher o Voo
+### ✈️ Escolher o voo
 - Clica no primeiro voo disponível usando um clique duplo.
 
-## 📝 Preencher Formulário de Compra
+### 📝 Preencher formulário de compra
 - Preenche os dados do formulário de compra (**nome, endereço, cartão de crédito**) e confirma a compra.
 
-## ✅ Verificação Final
+### ✅ Verificação final
 - Verifica se a mensagem de confirmação da compra e o valor total da passagem estão corretos.
